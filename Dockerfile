@@ -7,6 +7,7 @@ USER root
 RUN npm install -g firecrawl-mcp
 RUN npm install -g @modelcontextprotocol/server-brave-search
 RUN npm install -g @openbnb/mcp-server-airbnb
+RUN npm install -g @suekou/mcp-notion-server
 
 # Revert to the node user for security purposes
 USER node
